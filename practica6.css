@@ -1,0 +1,35 @@
+.uno {
+    width: 500px;
+    height: 300px;
+    border: 5px solid;
+    border-color: black;
+}
+
+.dos {
+    width: 500px;
+    height: 300px;
+    border: 5px solid;
+    border-color: black;
+}
+
+.tres {
+    width: 500px;
+    height: 300px;
+    border: 5px solid;
+    border-color: black;
+}
+.cuatro {
+    width: 500px;
+    height: 300px;
+    border: 5px solid;
+    border-color: black;
+}
+.esp:hover {
+    opacity: .5;
+    margin: 3px ;
+    border-color: red;
+}
+
+body {
+    background: white;
+}

@@ -1,0 +1,12 @@
+span {
+    visibility: hidden;
+}
+
+input:hover+span {
+    visibility: visible;
+    background: white;
+}
+
+.text1 {
+    background: blueviolet;
+}

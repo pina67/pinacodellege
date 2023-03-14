@@ -1,0 +1,44 @@
+div{
+    background: red;
+}
+
+*{
+    /*selector universal*/
+    margin: 20px;
+}
+
+h3 {
+    background: rgb(85, 85, 213);
+}
+
+div p {
+    color: white;
+}
+
+div p a{
+    color: blueviolet;
+}
+
+.contenedor{
+    background: #D68DFD;
+}
+/*selectores avanzados
+para input que son utilizados en formularios*/
+#parrafo {
+    font-size: 32px;
+}
+
+input[type="submit"]:hover {
+    background: #ccc;
+}
+
+input[type="text"]{
+    background: #ccc;
+    text-decoration: underline;
+}
+/*seleccionar el elemento que esta 
+directamente en la etiqueta*/
+
+div>p {
+    font-size: 24px;
+}

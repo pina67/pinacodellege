@@ -1,0 +1,21 @@
+.texto1 {
+    background: green;
+    color: white;
+    height: 200px;
+    width: 200px;
+}
+#a{
+    background-color: green;
+    color: white;
+    text-align: right;
+}
+
+#b{
+    background-color: red;
+    color: white;
+}
+
+.texto2 {
+    background: red;
+    color: white;
+}

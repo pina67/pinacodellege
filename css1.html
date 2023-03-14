@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bloque1">BLOQUE 1</div>
+
+<div class="bloque2">BLOQUE 2
+<div class="hijo1">Hijo 1 de bloque 2</div>
+<div class="hijo2">Hijo 2 de bloque 2</div>
+<div class="hijo3">hijo 3 de bloque 3</div>
+
+</div>
+<div class="bloque3">BLOQUE 3</div>
+</body>
+
+<style>
+
+div {
+ 
+  position: absolute;
+border:1px solid #41729c;
+}
+div.bloque1 {
+background-color: #c9e2c8;
+width:350px;
+height:113px;
+top: 137px;
+left:56px;
+z-index:800;
+}
+
+div.bloque2{
+background-color: #adf7ab;
+width:300px;
+height:350px;
+top: 70px;
+left:85px;
+z-index:600;
+}
+
+div.bloque3{
+background-color: #d8d674;
+width:450px;
+height:120px;
+top: 350px;
+left:25px;
+z-index:300;
+}
+
+div.bloque2 div.hijo1 {
+background-color: #5b71d5;
+width:266px;
+height:98px;
+top: 120px;
+left: 15px;
+z-index:90;
+}
+
+div.bloque2 div.hijo2{
+background-color: #da87f3;
+width:200px;
+height:250px;
+top: 40px;
+left: 70px;
+z-index:30;
+}
+
+div.bloque2 div.hijo3{
+background-color: #e999c8;
+width:245px;
+height:110px;
+top: 230px;
+left: 40px;
+z-index:20;
+}
+
+
+</style>
+
+</html>

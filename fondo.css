@@ -1,0 +1,5 @@
+/*background*/
+body{
+    background: url(./ola.jpg) no-repeat center center fixed;
+    background-size: 200px;
+}

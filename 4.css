@@ -1,0 +1,17 @@
+.caja1 {
+    text-align: center;
+    padding: 10px 5px 10px 5px ;
+    background-color: lime;
+    border: solid 10px black;
+}
+
+body {
+    margin: 10px 12px 10px 12px;
+    background: red;
+}
+
+article {
+    text-align: center;
+    padding: 10px 5px 10px 5px ;
+    background-color: lime;
+}

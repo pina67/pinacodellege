@@ -1,0 +1,35 @@
+header {
+    background: gold;
+    text-align: right;
+    width: 100%;
+    height: 75px;
+}
+
+body {
+    background: black;
+}
+
+article {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid black;
+    align-content: center;
+}
+
+article:hover {
+    background-color: gray;
+    transition: solid 1px;
+}
+
+@media (max-width: 1200px) {
+    header{
+        padding: 10px;
+    }
+    div {
+        margin: 50px 20px 0 20px;
+    }
+}
+
